@@ -1,0 +1,188 @@
+                @import url(fontawesome-all.min.css);
+                @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
+                body {
+                    background-color: #935d8c;
+                    background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #c076e3 15%, #703470 85%);
+                    background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #ce6571 15%, #5f4d93 85%);
+                    background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #b46770 15%, #7855e0 85%);
+                    background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+                }
+                /* Image */
+                
+                .image.main {
+                    display: block;
+                    margin: 0 0 3em 0;
+                    width: 100%;
+                }
+                
+                .image.main img {
+                    width: 100%;
+                }
+                /* Header */
+                
+                #header {
+                    padding: 5em 5em 1em 5em;
+                    text-align: center;
+                }
+                
+                #header h1 {
+                    margin: 0 0 0.25em 0;
+                }
+                
+                #header p {
+                    font-size: 1.25em;
+                    letter-spacing: -0.025em;
+                }
+                
+                @media screen and (max-width: 1280px) {
+                    #header {
+                        padding: 4em 4em 0.1em 4em;
+                    }
+                }
+                
+                @media screen and (max-width: 980px) {
+                    #header {
+                        padding: 4em 3em 0.1em 3em;
+                    }
+                }
+                
+                @media screen and (max-width: 736px) {
+                    #header {
+                        padding: 3em 2em 0.1em 2em;
+                    }
+                    #header p {
+                        font-size: 1em;
+                        letter-spacing: 0;
+                    }
+                }
+                
+                #header p br {
+                    display: none;
+                }
+                
+                @media screen and (max-width: 480px) {
+                    #header {
+                        padding: 3em 1.5em 0.1em 1.5em;
+                    }
+                }
+                
+                @media screen and (max-width: 360px) {
+                    #header {
+                        padding: 2.5em 1em 0.1em 1em;
+                    }
+                }
+                /* Main */
+                
+                #main {
+                    background-color: #ffffff;
+                    color: #636363;
+                    border-radius: 0.25em;
+                }
+                
+                #main h1,
+                #main h2,
+                #main h3,
+                #main h4,
+                #main h5,
+                #main h6 {
+                    color: #636363;
+                }
+                
+                @media screen and (max-width: 1280px) {
+                    #main>.main {
+                        padding: 4em 4em 2em 4em;
+                    }
+                    #main>.main>.image.main:first-child {
+                        margin: -4em 0 4em -4em;
+                        width: calc(100% + 8em);
+                    }
+                }
+                
+                @media screen and (max-width: 980px) {
+                    #main>.main {
+                        padding: 4em 3em 2em 3em;
+                    }
+                }
+                
+                @media screen and (max-width: 736px) {
+                    #main>.main {
+                        padding: 3em 2em 1em 2em;
+                    }
+                }
+                
+                @media screen and (max-width: 480px) {
+                    #main>.main {
+                        padding: 3em 1.5em 1em 1.5em;
+                    }
+                }
+                
+                @media screen and (max-width: 360px) {
+                    #main {
+                        border-radius: 0;
+                    }
+                    #main>.main {
+                        padding: 2.5em 1em 0.5em 1em;
+                    }
+                    #main>.main>.image.main:first-child {
+                        margin: -2.5em 0 1.5em -1em;
+                        width: calc(100% + 2em);
+                        border-radius: 0;
+                    }
+                    #main>.main>.image.main:first-child img {
+                        border-radius: 0;
+                    }
+                }
+                /* Footer */
+                
+                #footer>* {
+                    width: calc(50% - 2em);
+                    margin-left: 2em;
+                }
+                
+                #footer .copyright {
+                    width: 100%;
+                    margin: 2.5em 0 2em 0;
+                    font-size: 0.8em;
+                    text-align: center;
+                }
+                
+                @media screen and (max-width: 1280px) {
+                    #footer {
+                        padding: 4em 4em 2em 4em;
+                    }
+                }
+                
+                @media screen and (max-width: 980px) {
+                    #footer {
+                        padding: 4em 3em 2em 3em;
+                        display: block;
+                        margin: 0 0 3em 0;
+                        width: 100%;
+                    }
+                    #footer>* {
+                        width: 100%;
+                        margin-left: 0;
+                        margin-bottom: 3em;
+                    }
+                    #footer .copyright {
+                        text-align: left;
+                    }
+                }
+                
+                @media screen and (max-width: 736px) {
+                    #footer {
+                        padding: 3em 2em 1em 2em;
+                    }
+                }
+                
+                @media screen and (max-width: 480px) {
+                    #footer {
+                        padding: 3em 1.5em 1em 1.5em;
+                    }
+                }
+                
+                @media screen and (max-width: 480px) {
+                    #footer {
+                        padding: 2.5em 1em 0.5em 1em;
+                    }
+                }
